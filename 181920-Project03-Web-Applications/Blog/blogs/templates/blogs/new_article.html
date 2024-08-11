@@ -1,0 +1,10 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+  <p>Create a new article</p>
+  <form action="{% url 'blogs:new_article' blog.id %}" method="post">
+    {% csrf_token %}
+    {{ form.as_div }}
+    {{ form.pub_date.as_div }}
+    <button name="submit">Create Article and time it</button>
+  </form>

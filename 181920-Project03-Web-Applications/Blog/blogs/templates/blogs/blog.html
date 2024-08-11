@@ -1,0 +1,28 @@
+{% extends "blogs/base.html" %}
+
+{% block content %}
+  <p>Blog: {{ blog.title }}</p>
+  <ul>
+    {% for article in articles %}
+      <li>
+        <a>
+          {{ article.title }} ---
+          {{ article.body }}
+          <p>
+            <a href="{% url 'blogs:edit_article' article.id %}">
+              Edit
+            </a>
+          </p>
+        </a>
+      </li>
+    {% empty %}
+      <li>No articles</li>
+    {% endfor %}
+  </ul>
+  <p>
+    <a href="{% url 'blogs:new_article' blog.id %}">
+      Create a new article
+    </a>
+  </p>
+
+{% endblock %}
