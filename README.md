@@ -1,8 +1,7 @@
-# Python Crash Course, 3rd Edition - Learning Journey
-
+# Learning Files for Python Crash Course, 3rd Edition
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/your-repo-name)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/your-repo-name)
+![GitHub last commit](https://img.shields.io/github/last-commit/StepaniaH/learning-pcc3e)
+![GitHub issues](https://img.shields.io/github/issues/StepaniaH/learning-pcc3e)
 
 This repository contains my personal learning journey through the book "Python Crash Course, 3rd Edition" by Eric Matthes. It includes all the code I've typed while working through the exercises and projects in the book.
 
